@@ -1,6 +1,7 @@
 require 'watir'
 require 'rspec'
 
+# New comment
 Given(/^we will visit automationpractice\.com site$/) do
 	@browser.goto "http://automationpractice.com"
 end
